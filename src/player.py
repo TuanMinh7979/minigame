@@ -179,20 +179,20 @@ class Player(pygame.sprite.Sprite):
                         self.is_shocked=True
                 
                         self.health-=1
-                        print(">>>>>>>>>>>>>>><<<<<<<<<<<<", self.rect.center)
+                       
                         if self.rect.y>2800:
-                            print("1")
+                      
                             self.rect.center= (2062, 3200)
                            
                         elif self.rect.y>2300:
-                            print("2")
+                  
                             self.rect.center=(2062, 2700)
                            
                         elif self.rect.y>1500: 
-                            print("3")
+                       
                             self.rect.center= (2062, 2100)
                         elif self.rect.y>1100: 
-                           print("4")    
+                       
                            self.rect.center= (2062, 1500)
                            
                      
@@ -224,18 +224,18 @@ class Player(pygame.sprite.Sprite):
                         self.health-=1
                        
                         if self.rect.y>2800:
-                            print("a1")
+                       
                             self.rect.center= (2062, 3200)
                            
                         elif self.rect.y>2300:
-                            print("a2")
+                         
                             self.rect.center=(2062, 2700)
                            
                         elif self.rect.y>1500: 
-                            print("a3")
+                           
                             self.rect.center= (2062, 2100)
                         elif self.rect.y>1100:   
-                           print("a4")  
+                      
                            self.rect.center= (2062, 1500)
                      
                         self.pos= pygame.math.Vector2(self.rect.center)
